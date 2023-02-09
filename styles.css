@@ -1,4 +1,145 @@
+:root {
+  --blue: #0065FC;
+  --light-blue: #DEEBFF;
+  --grey: #D9D9D9;
+}
 body {
-    font-family: 'Raleway', sans-serif;
-    font-weight: normal;
-  }
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  margin-left:  55px;
+  margin-right: 55px;
+}
+/* Ci-dessous : l'en-tête */
+a {
+  text-decoration: none;
+  color: black;
+}
+nav {
+  height: 44px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#container_nav {
+  width: 30%;
+  display: flex;
+}
+.logo {
+  width: 61.09px;
+  height: 19px;
+  margin-top: 44px;
+}
+.container_nav_barre1:hover {
+  border-top: #0065FC 2px solid;
+}
+.container_nav_barre2:hover {
+  border-top: #0065FC 2px solid;
+}
+.link {
+  margin-top: 42px;
+}
+.container_nav_barre1 {
+  display: flex;
+  width: 50%;
+  align-items: end;
+  justify-content: center;
+} 
+.container_nav_barre2 {
+  display: flex;
+  width: 50%;
+  align-items: end;
+  justify-content: center;
+}
+/* Commentaire à faire */ 
+h1 {
+  font-size: 22px;
+  margin-top: 80px;
+  height: 26px;
+}
+p {
+  font-size: 16px;
+}
+
+#research {
+  display: flex;
+  height: 45px;
+  margin-top: 20px;
+}
+#research_input {
+  font-weight: bold;
+  border: 2px;
+  border-color: #D9D9D9;
+  height: 49px;
+  width: 200px;
+  border-radius: 15px;
+}
+#button_research {
+  background-color: #0065FC;
+  color: white;
+  font-weight: bold;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border: 1px;
+  width: 132px;
+}
+#research_button_phone {
+  display: none;
+}
+#icon {
+  width: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #D9D9D9;
+  border-radius: 15px 0 0 15px;
+  background-color: #F2F2F2;
+}
+/*Filters*/
+.searchFilters {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 12px;
+  margin-top: 45px;
+}
+.searchFilters i {
+  display:flex;
+  border-radius: 100%;
+  height: 10px;
+  width: 10px;
+  min-height: 50px;
+  min-width: 25px;
+  align-items: center;
+  justify-content: center;
+  margin: -2px;
+  color: #0065FC;
+  margin-right: 12px;
+}
+.searchFilters div{
+  display: flex;
+  align-items: center;
+  margin-right: 22px;
+  border: 2px solid #D9D9D9;
+  border-radius: 32px;
+  margin-bottom: 15px;
+  transition-duration: 0.1s;
+  cursor: pointer;
+  font-weight: bold;
+  padding-right:  12px;
+}
+.searchFilters div:hover {
+  background-color: #DEEBFF;
+}
+/*Filters*/
+.fas.fa-info {
+  color: #0065FC;
+  border-radius: 50px;
+  border: solid 2px #DEEBFF;
+  margin-right: 8px;
+  padding: 7px 11px 7px 11p;
+  font-size: 16.26px;
+}
+.info p{
+  display: initial;
+}
+
+
