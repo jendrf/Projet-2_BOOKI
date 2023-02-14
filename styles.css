@@ -82,6 +82,7 @@ p {
   border: 1px;
   width: 132px;
 }
+/*icône loupe caché sur deskop*/
 #research_button_phone {
   display: none;
 }
@@ -139,7 +140,7 @@ p {
   font-size: 16.26px;
 }
 .info p{
-  display: initial;
+  display: initial; 
 }
 
 /**** Hébergements***/
@@ -153,11 +154,12 @@ p {
 
 .title_section_h2 {
   margin-left: 5%;
+  font-size: 22px;
 }
 
 .section_1_part1 {
   width: 67%;
-  padding: 40px;
+  padding: 20px;
   border-radius: 20px;
   background-color: var(--grey);
 }
@@ -166,8 +168,27 @@ p {
   box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
   transition: none;
   border-radius: 20px;
+  background-color: #FFFFFF;
+  padding: 5px;
+  height: 50%;
+  width: 30%;
 }
 
+.hebergement_section1 img{
+  width: 100%;
+  height: auto;
+  border-radius: 20px 20px 0 0;
+  background: #FFFFFF;
+  object-fit: contain;
+}
+
+.hebergement_section1 a{
+  display: contents;
+}
+
+.star {
+  color: #0065FC;
+}
 
 
 
