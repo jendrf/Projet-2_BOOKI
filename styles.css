@@ -9,8 +9,9 @@ body {
   font-size: 16px;
   margin-left:  55px;
   margin-right: 55px;
+  max-width: 1400px;
 }
-/* Header */
+
 a {
   text-decoration: none;
   color: black;
@@ -51,16 +52,17 @@ nav {
   align-items: end;
   justify-content: center;
 }
-/* Sous-titre */ 
+ 
 h1 {
   font-size: 22px;
   margin-top: 80px;
   height: 26px;
 }
+
 p {
   font-size: 16px;
 }
-/* Barre de recherche */
+
 #research {
   display: flex;
   height: 45px;
@@ -83,10 +85,11 @@ p {
   border: 1px;
   width: 132px;
 }
-/*icône loupe caché sur deskop*/
+/*icône loupe cachée sur deskop*/
 #research_button_phone {
   display: none;
 }
+
 #icon {
   width: 45px;
   display: flex;
@@ -96,7 +99,7 @@ p {
   border-radius: 15px 0 0 15px;
   background-color: #F2F2F2;
 }
-/*Filters*/
+
 
 .searchFilters {
   display: flex;
@@ -110,7 +113,6 @@ p {
   justify-content: center;
   min-height: 50px;
   min-width: 25px;
-  margin: -2px;
   margin-right: 15px;
   margin-left: 15px; 
   color: #0065FC;
@@ -131,7 +133,8 @@ p {
 .searchFilters div:hover {
   background-color: #DEEBFF;
 }
-/*Infos*/
+
+
 .fas.fa-info {
   color: #0065FC;
   border-radius: 50px;
@@ -140,34 +143,26 @@ p {
   padding: 7px 10px 7px 10px;
   font-size: 16.26px;
 }
+/*réinitialisation valeur par défaut*/
 .info p{
   display: initial; 
 }
 
-/**** Hébergements***/
-
 .section_content {
   display: flex;
-  width: 100%;
-  height: 500px;
+  padding-top: 3%;
   justify-content: space-between;
-  padding: 3.5px;
+  width: 100%;
 }
-
 
 .title_section_h2{
   margin-left: 5%;
-  padding-top: 10px;
+  padding-top: 3%;
 }
 
-.section_1 {
-  width: 68%;
-  height: 600px;
-  border-radius: 25px;
-}
 #section_1_hebergement {
   width: 90%;
-  height: 85%;
+  height: 430px;
   margin-left: 5%;
   display: flex;
   flex-wrap: wrap;
@@ -176,15 +171,16 @@ p {
 
 .section_1_part1 {
   width: 68%;
-  height: 600px;
+  height: 650px;
   border-radius: 25px;
   background: #F2F2F2;
 }
 
 .hebergement_section1 {
   background-color: #FFFFFF;
-  padding: 3.6px;
-  height: 43%;
+  padding: 0.7%;
+  margin-bottom: 4%;
+  height: 200px;
   width: 30%;
   border-radius: 20px;
   box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
@@ -193,28 +189,29 @@ p {
 
 .hebergement_section1 img{
   width: 100%;
-  height: 64%;
+  height: 130px;
   object-fit: cover;
   border-radius: 20px 20px 0 0;
 }
+
 #section_1_hebergement a{
   display: contents;
 }
 
-.hebergement_section_1 p{
-  color: black;
-  font-size: 11px;
-}
-
 .section1_text {
-  height: 50%;
-  padding-left: 13px;
-  margin-top: -14px;
+  padding-left: 4%;
   color: black;
 }
 
 .section1_text h3{
-  font-size: 13px;
+  font-size: 15px;
+  margin-top: 0%;
+  font-weight: bold;
+}
+
+.section1_text p{
+  margin-left: 1px;
+  font-size: 12px;
 }
 
 .star {
@@ -227,9 +224,113 @@ p {
   fill: currentColor;
 }
 
-.section1_text p{
-  margin-left: 1px;
-  font-size: 12px;
+.afficher {
+  font-size: 18px;
+  font-weight: 700;
+  color: black;
+  margin-left: 5%;
 }
+
+
+#section_populaire {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.section_populaire_title {
+  margin-left: 12px;
+  margin-top: 30px;
+}
+
+.fas.fa-chart-line {
+  color:#0065FC;
+  margin-right: 5%;
+  margin-top: 6%;
+}
+
+.populaire {
+  width: 29%;
+  background-color: #F2F2F2;
+  border-radius: 20px;
+  padding: 0 10px 0;
+  height: 650px;
+}
+
+.card {
+  display: flex;
+  background-color: #FFFFFF;
+  border-radius: 20px;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
+  height: 134px;
+  padding: 1%;
+  margin: 20px;
+}
+
+.card img {
+  width: 40%;
+  height: 131px;
+  object-fit: cover;
+  display: inline;
+  border-radius: 20px 0 0 20px;
+}
+
+.card_info {
+  color: black;
+  display: flex;
+  flex-direction: column;
+  margin-left: 7px;
+  font-size: 13px;
+}
+
+
+.activite {
+  margin-top: 4%;
+}
+
+.activite-marseille {
+font-size: 22px;
+font-weight: 700;
+}
+
+.activite-list {
+display: flex;
+justify-content: space-between;
+height: 407px;
+font-size: small;
+}
+
+.activite h2{
+margin-left: 0px;
+margin-top: 5%;
+}
+
+.activite-list .column {
+width: 23%;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+border-radius: 20px;
+}
+
+.activite-list .column article img {
+width: 100%;
+height: calc(100% - 50px);
+object-fit: cover;
+border-radius: 20px 20px 0px 0px;
+}
+
+.activite-list .column article {
+height: 100%;
+box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
+border-radius: 20px;
+}
+
+.activite-list .column article h3 {
+padding: 21px;
+margin: 0px;
+}
+
+
 
 
