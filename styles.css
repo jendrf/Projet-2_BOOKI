@@ -331,6 +331,34 @@ padding: 21px;
 margin: 0px;
 }
 
+.footer {
+  background-color: #F2F2F2;
+  width: 100%;
+  margin-top: 4%;
+}
+
+.footerbooki{
+  display: flex;
+  margin: auto;
+  padding: 0 25px;    
+  box-sizing: border-box;
+}
+
+.footercolonne{
+  padding: 20px 15px;
+  flex: auto;
+}
+
+.footer ul {
+  display: block;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+
 
 
 
