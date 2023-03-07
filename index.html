@@ -2,9 +2,10 @@
 <html lang="fr">
 <head> 
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
    <title>BOOKI</title>
    <link rel="stylesheet" type="text/css" href="styles.css">
-   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" >
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800&display=swap" >
    <script src="https://kit.fontawesome.com/0cd10bf769.js" crossorigin="anonymous"></script> 
 </head>
 <body>
@@ -16,7 +17,7 @@
          </a>
          <div id="container_nav"> 
             <div class="container_nav_barre1">
-               <a class="link" href="hebergement">Hébergements</a>
+               <a class="link" href="section_content">Hébergements</a>
             </div>
             <div class="container_nav_barre2">
                <a class="link" href="activite">Activités</a>
@@ -171,19 +172,19 @@
                   <div><p class="afficher">Afficher plus</p></div>
             </div>
 
-            <aside class="populaire">
+            <div class="populaire">
                <div id="section_populaire">
-                  <h2 class="section_populaire_title">Les plus populaires</h2>
-                  <i class="fas fa-chart-line"></i>
+                  <h2 class="populaire_title">Les plus populaires</h2>
+                  <i class="fa-solid fa-chart-line"></i>
                </div>
 
                <div class="hebergement_populaire">
                   <a href="#">
-                     <div class="card">
+                     <article class="card">
                         <img class="card_img" src="images_booki/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="Hôtel Le Soleil du Matin">
                         <div class="card_info">
                            <h3>Hôtel Le Soleil du Matin</h3>
-                           <p class="price">Nuit à partir de 128€</p>
+                           <p>Nuit à partir de 128€</p>
                            <div class="star_populaire">
                               <i class="fas fa-star star"></i>
                               <i class="fas fa-star star"></i>
@@ -192,7 +193,7 @@
                               <i class="fas fa-star star_grey"></i>
                            </div>
                         </div>
-                     </div>
+                     </article>
                   </a>
                   <a href="#">
                      <div class="card">
@@ -227,14 +228,14 @@
                      </div>
                   </a>                         
                </div>
-            </aside>
+            </div>
       </section>
 
       <section class="activite">
          <h2 class="activite-marseille">Activités à Marseille</h2>
          <div class="activite-list">
             
-               <div class="column">
+               <div class="card_act">
                   <article>
                      <a href="#">
                         <img src="images_booki/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Vieux-Port">
@@ -242,7 +243,7 @@
                      </a>
                   </article>
                </div>
-               <div class="column">
+               <div class="card_act">
                   <article>
                      <a href="#">
                         <img src="images_booki/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="Fort de Pomègues">
@@ -250,7 +251,7 @@
                      </a>
                   </article>
                </div>
-               <div class="column">
+               <div class="card_act">
                   <article>
                      <a href="#">
                         <img src="images_booki/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="Parc national des Calanques">
@@ -258,7 +259,7 @@
                      </a>
                   </article>
                </div>
-               <div class="column">
+               <div class="card_act">
                   <article>
                      <a href="#">
                         <img src="images_booki/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="Notre-Dame-de-la-Garde">
