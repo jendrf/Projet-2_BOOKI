@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head> 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
    <title>BOOKI</title>
-   <link rel="stylesheet" type="text/css" href="styles.css">
+   <link rel="stylesheet" type="text/css" href="css/styles.css">
    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800&display=swap" >
    <script src="https://kit.fontawesome.com/0cd10bf769.js" crossorigin="anonymous"></script> 
 </head>
-<body>
 
+<body>
    <header> 
       <nav>
          <a href="#">
@@ -17,10 +17,10 @@
          </a>
          <div id="container_nav"> 
             <div class="container_nav_barre1">
-               <a class="link" href="section_content">Hébergements</a>
+               <a class="link" href="#hebergement_populaire">Hébergements</a>
             </div>
             <div class="container_nav_barre2">
-               <a class="link" href="activite">Activités</a>
+               <a class="link" href="#activite">Activités</a>
             </div>
          </div>
       </nav>
@@ -38,14 +38,14 @@
             <div id="icon">
                <i class="fa-solid fa-location-dot"></i>
             </div>
-            <input id="research_input" type="text" placeholder="    Marseille, France">
+            <input id="research_input" type="text" placeholder="  Marseille, France">
             <button id="button_research">Rechercher</button>
             <i id="research_button_phone" class="fa-solid fa-magnifying-glass"></i>
          </form>  
    
    
-         <div class="searchFilters">
-            <h2 class="searchFiltersTitle">Filtres</h2>
+         <div class="searchfilters">
+            <h2 class="searchfilterstitle">Filtres</h2>
             <div>
                <i class="fa-solid fa-money-bill-wave"></i>
                Economique
@@ -233,7 +233,7 @@
             </div>
       </section>
 
-      <section class="activite">
+      <section class="activite" id="activite">
          <h2 class="activite-marseille">Activités à Marseille</h2>
          <div class="activite-list">
             
